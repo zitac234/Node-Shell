@@ -4,6 +4,7 @@ process.stdin.on("data", (data) => {
   const commands = {
     pwd: process.cwd(),
   };
-  process.stdout.write(`answer: ${commands[cmd]}`);
+  ;
+  process.stdout.write(`answer: ${}`);
   process.stdout.write("\nprompt >");
 });
