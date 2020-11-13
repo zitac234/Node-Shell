@@ -6,4 +6,4 @@
 
 // newLS()
 const newCat = require("./ls.js");
-newCat;
+newCat(pwd.js);

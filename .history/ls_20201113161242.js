@@ -12,8 +12,7 @@ const fs = require("fs");
 function catFile(filename) {
   fs.readFile(filename, "utf8", (err, data) => {
     if (err) throw err;
-    process.stdout.write(data);
-    process.stdout.write("\nprompt >");
+    // process.stdout.write(data);
     // console.log(data);
   });
 }

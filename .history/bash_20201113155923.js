@@ -5,5 +5,3 @@
 // const newLS = require("./ls.js")
 
 // newLS()
-const newCat = require("./ls.js");
-newCat;

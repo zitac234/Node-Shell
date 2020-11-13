@@ -6,4 +6,3 @@
 
 // newLS()
 const newCat = require("./ls.js");
-newCat;
